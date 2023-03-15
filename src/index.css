@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+
+  .my-list-disc {
+    list-style-type: disc;
+  }
+  
+  .utilitie-icon{
+    @apply h-7 w-7 rounded-md shadow-xl bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-none px-1.5 transition duration-300 ease-in-out;
+    border: 1px solid #d9d9d9;
+  }
+
+  .utilitie-icon:focus,
+  .utilitie-icon:hover{
+    @apply shadow-2xl bg-gray-200;
+  }
+  
+  .utilitie-icon-2{
+    @apply h-7 w-7 rounded-md shadow-xl bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-none  transition duration-300 ease-in-out;
+    border: 1px solid #d9d9d9;
+  }
+
+  .utilitie-icon-2:focus,
+  .utilitie-icon-2:hover{
+    @apply shadow-2xl bg-gray-200;
+  }
+  
+}
+
